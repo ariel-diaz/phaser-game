@@ -196,14 +196,14 @@
 
       // Game Over text
       gameOverText = this.add.text(200, 260, 'Game Over', { fontSize: '72px', fill: '#000' });
-      gameOverText.visible = true;
+      gameOverText.visible = false;
 
     
      buttonRestart = this.add.text(280, 320, 'Restart Game', { fill: '#fff', fontSize: '32px' })
      .setInteractive()
      .on('pointerdown', restartGame, this)
 
-     buttonRestart.visible = true;
+     buttonRestart.visible = false;
     }
 
     function update ()
